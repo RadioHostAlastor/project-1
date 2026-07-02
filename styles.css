@@ -188,24 +188,22 @@ transition: all 400ms ease;
     padding: 0px 16px;
 }
 
-.about-me__img--container{
+.about-me__img--container {
     flex: 1;
     display: flex;
     align-items: center;
 }
 
-.about-me__img{
+.about-me__img {
     width: 100%;
 }
 
-/*TECH - STACK*/
+/* TECH - STACK */
 
 .language__img {
     width: 100%;
     max-width: 100px;
     transition: all 300ms;
-    background: transparent !important;
-    box-shadow: none !important;
 }
 .language:hover .language__img {
     filter: brightness(80%);
@@ -216,7 +214,7 @@ transition: all 400ms ease;
 .language {
     width: 25%;
     display: flex;
-    flex-direction: center;
+    justify-content: center;
     position: relative;
 }
 
@@ -225,7 +223,6 @@ transition: all 400ms ease;
     justify-content: center;
     align-items: center;
     padding: 25px 16px;
-    background: transparent !important;
 }
 
 .language__list {
@@ -234,7 +231,7 @@ transition: all 400ms ease;
     flex-wrap: wrap;
 }
 
-.language__name{
+.language__name {
 position: absolute;
 bottom: 0;
 transform: scale(0);
