@@ -61,11 +61,11 @@ li {
     list-style-type: none;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.flex-1{
+.flex-1 {
     flex: 1;
 }
 .container {
@@ -127,7 +127,7 @@ transition: all 400ms ease;
     background-color: #ff0000;
 }
 
-.personal__logo{
+.personal__logo {
     font-size: 24px;
     color: #CA0000;
     margin: 0 12px;
@@ -142,7 +142,7 @@ transition: all 400ms ease;
     flex-direction: column;
 }
 
-.about-me__info{
+.about-me__info {
     display: flex;
     flex-direction: column;
 }
@@ -165,7 +165,7 @@ transition: all 400ms ease;
     margin-bottom: 28px;
 }
 
-.about-me__picture{
+.about-me__picture {
     width: 40%;
 
     /*Improving my image*/
