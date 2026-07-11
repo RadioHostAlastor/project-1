@@ -366,3 +366,18 @@ opacity: 0;
     text-align: left;
     color: #fff
 }
+
+/*footer*/
+
+footer {
+    background-color: #242424;
+}
+
+.footer__row {
+    padding: 8% 0;
+}
+
+.footer__logo--img {
+    width: 70px;
+    height: 70px;
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 200" height="200" width="280">
+  
+  <circle stroke-opacity="0.9" stroke-width="12" stroke="#FF0000" fill="none" r="85" cy="100" cx="140"></circle>
+  <circle stroke-opacity="0.8" stroke-width="8" stroke="#000000" fill="none" r="62" cy="100" cx="140"></circle>
+
+  
+  <rect stroke-width="10" stroke="#000000" fill="#FF0000" rx="12" height="85" width="70" y="55" x="105"></rect>
+  
+  
+  <rect fill="#1a1a1a" rx="8" height="55" width="50" y="65" x="115"></rect>
+  <circle fill="#FF0000" r="6" cy="92" cx="140"></circle>
+  
+  
+  <rect stroke-width="6" stroke="#000000" fill="#FF0000" height="35" width="10" y="140" x="135"></rect>
+  <ellipse stroke-width="6" stroke="#000000" fill="#FF0000" ry="8" rx="25" cy="175" cx="140"></ellipse>
+
+  
+  <text letter-spacing="-2" fill="#FF0000" font-weight="900" font-size="42" font-family="Arial Black, sans-serif" y="195" x="10">RADIO HOST</text>
+</svg>
