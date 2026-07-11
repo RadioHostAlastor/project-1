@@ -183,16 +183,22 @@ transition: all 400ms ease;
 
 .about-me__info--title {
    margin-bottom: 16px;
+   animation: fade-up 1200ms 400ms backwards;
 }
 .about-me__info--para {
     font-size: 20px;
     margin-bottom: 28px;
+    animation: fade-up 1200ms 600ms backwards;
 }
 
 .about-me__link {
     font-size: 20px;
     color: #242424;
     padding: 0px 16px;
+}
+
+.about-me__links{
+    animation: fade-up 1200ms 800ms backwards;
 }
 
 @keyframes fade-up{
@@ -214,7 +220,7 @@ transition: all 400ms ease;
 
 .about-me__img {
     width: 100%;
-    animation: fade-up 1200ms 800ms backwards;
+    animation: fade-in 1200ms 800ms backwards;
 }
 
 @keyframes fade-in {
@@ -223,6 +229,27 @@ transition: all 400ms ease;
     }
     100% {
         opacity: 1;
+    }
+}
+
+img[src="assets/radio.svg"] {
+    animation: logoGlow 2s ease-in-out infinite alternate,
+               radioPulse 3s ease-in-out infinite;
+}
+
+/* Glow animation */
+@keyframes logoGlow {
+    from { filter: drop-shadow(0 0 8px #000000); }
+    to   { filter: drop-shadow(0 0 25px #ca0000); }
+}
+
+/* Pulse + subtle scale */
+@keyframes radioPulse {
+    0%, 100% { 
+        transform: scale(1); 
+    }
+    50% { 
+        transform: scale(1.08); 
     }
 }
 

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" height="120" width="120">
+  <defs>
+    <linearGradient y2="100%" x2="100%" y1="0%" x1="0%" id="grad">
+      <stop stop-color="#FF0000" offset="0%"></stop>
+      <stop stop-color="#1a1a1a" offset="100%"></stop>
+    </linearGradient>
+  </defs>
+
+  
+  <rect stroke-width="8" stroke="#000000" fill="url(#grad)" rx="10" height="60" width="50" y="25" x="35"></rect>
+  <rect fill="#1a1a1a" rx="6" height="35" width="36" y="35" x="42"></rect>
+
+  
+  <circle fill="#FF0000" r="3" cy="48" cx="55"></circle>
+  <circle fill="#FF0000" r="3" cy="48" cx="65"></circle>
+  <circle fill="#FF0000" r="3" cy="48" cx="75"></circle>
+
+  
+  <rect stroke-width="6" stroke="#000000" fill="#FF0000" height="20" width="10" y="85" x="55"></rect>
+  <ellipse stroke-width="6" stroke="#000000" fill="#FF0000" ry="6" rx="18" cy="105" cx="60"></ellipse>
+
+  
+  <circle stroke-dasharray="4,8" stroke-width="4" stroke="#FF0000" fill="none" r="18" cy="60" cx="60"></circle>
+</svg>
