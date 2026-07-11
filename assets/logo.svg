@@ -1,19 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 200" height="200" width="280">
-  
-  <circle stroke-opacity="0.9" stroke-width="12" stroke="#FF0000" fill="none" r="85" cy="100" cx="140"></circle>
-  <circle stroke-opacity="0.8" stroke-width="8" stroke="#000000" fill="none" r="62" cy="100" cx="140"></circle>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260" height="260" width="260">
+  <defs>
+    <linearGradient y2="100%" x2="100%" y1="0%" x1="0%" id="grad">
+      <stop stop-opacity="1" stop-color="#FF0000" offset="0%"></stop>
+      <stop stop-opacity="1" stop-color="#1a1a1a" offset="100%"></stop>
+    </linearGradient>
+    
+    
+    <filter height="140%" width="140%" y="-20%" x="-20%" id="innerShadow">
+      <feGaussianBlur result="blur" stdDeviation="4" in="SourceAlpha"></feGaussianBlur>
+      <feOffset result="offsetBlur" dy="4" dx="0" in="blur"></feOffset>
+      <feComponentTransfer>
+        <feFuncA intercept="0" slope="0.6" type="linear"></feFuncA>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+  </defs>
 
   
-  <rect stroke-width="10" stroke="#000000" fill="#FF0000" rx="12" height="85" width="70" y="55" x="105"></rect>
-  
-  
-  <rect fill="#1a1a1a" rx="8" height="55" width="50" y="65" x="115"></rect>
-  <circle fill="#FF0000" r="6" cy="92" cx="140"></circle>
-  
-  
-  <rect stroke-width="6" stroke="#000000" fill="#FF0000" height="35" width="10" y="140" x="135"></rect>
-  <ellipse stroke-width="6" stroke="#000000" fill="#FF0000" ry="8" rx="25" cy="175" cx="140"></ellipse>
+  <circle stroke-opacity="0.95" stroke-width="22" stroke="#FF0000" fill="none" r="118" cy="130" cx="130"></circle>
+  <circle stroke-width="14" stroke="#1a1a1a" fill="none" r="92" cy="130" cx="130"></circle>
 
   
-  <text letter-spacing="-2" fill="#FF0000" font-weight="900" font-size="42" font-family="Arial Black, sans-serif" y="195" x="10">RADIO HOST</text>
+  <text filter="url(#innerShadow)" stroke-width="6" stroke="#000000" text-anchor="middle" fill="url(#grad)" font-weight="900" font-size="105" font-family="Arial Black, sans-serif" y="155" x="130">JR</text>
 </svg>
